@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classprojetocc3642_1_1_bicicleta" kind="class"><name>projetocc3642::Bicicleta</name>
+    <member refid="classprojetocc3642_1_1_bicicleta_1a63df596aab1ad11a710a025b5da44ab2" kind="variable"><name>v</name></member>
+    <member refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" kind="function"><name>Bicicleta</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_caminhao" kind="class"><name>projetocc3642::Caminhao</name>
+    <member refid="classprojetocc3642_1_1_caminhao_1abccd2c7ea65a86ca9c42bca48d92db1c" kind="variable"><name>v</name></member>
+    <member refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" kind="function"><name>Caminhao</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_carro" kind="class"><name>projetocc3642::Carro</name>
+    <member refid="classprojetocc3642_1_1_carro_1a9930b01b272016c5e712a56d8febdf24" kind="variable"><name>v</name></member>
+    <member refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" kind="function"><name>Carro</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_moto" kind="class"><name>projetocc3642::Moto</name>
+    <member refid="classprojetocc3642_1_1_moto_1a99eab809f0d47570757f0199fc541c07" kind="variable"><name>v</name></member>
+    <member refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" kind="function"><name>Moto</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_mundo" kind="class"><name>projetocc3642::Mundo</name>
+    <member refid="classprojetocc3642_1_1_mundo_1aeb0662b27f7751253e25ef58afda6b98" kind="variable"><name>v</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1adcf992aefc45b1cc81bc99ba08094279" kind="variable"><name>c</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1a6153947889643d2d3e79b79ce88f99b2" kind="variable"><name>ca</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1ae487a57360765f20fc56c3b3ef4f3f0b" kind="variable"><name>b</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1a128cd965ad6e95ea0ae4506187702063" kind="variable"><name>m</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" kind="variable"><name>mapa</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1aa9b445c0bffbc8f320925780bdf84fad" kind="function"><name>desenhaMundo</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1a694c5bf2f661852f686f74d8f7cd68d9" kind="function"><name>zeraMapa</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" kind="function"><name>geraVeiculos</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1a744f794ef8ed86c2e7decbaa22972c76" kind="function"><name>detectaColisao</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" kind="function"><name>geraVeiculo</name></member>
+    <member refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" kind="function"><name>atualizaMundo</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_projeto_c_c3642" kind="class"><name>projetocc3642::ProjetoCC3642</name>
+    <member refid="classprojetocc3642_1_1_projeto_c_c3642_1ae9791a0530e6a908cf4e930e109fba86" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classprojetocc3642_1_1_veiculo" kind="class"><name>projetocc3642::Veiculo</name>
+    <member refid="classprojetocc3642_1_1_veiculo_1ac0d18c639a52a0a745261ffd33dedf5a" kind="variable"><name>r</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ad20811702ad123f79ae747b2c96e607e" kind="variable"><name>c</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a62e4b534ef3e5e9d844cd77e2545747e" kind="variable"><name>cam</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ac4b93baac1fb11047665ff6a414e763a" kind="variable"><name>motoca</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a5f61923c99a3eb9d94f9f5af0f9d1ea6" kind="variable"><name>bici</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1aad6c010a26cbdd783edb99d17b021d42" kind="variable"><name>meio</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" kind="variable"><name>x</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" kind="variable"><name>y</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" kind="variable"><name>velocidade</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" kind="variable"><name>fabrica</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" kind="variable"><name>cor</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" kind="function"><name>Veiculo</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ad031e82354dd6022d3de995e08584f7c" kind="function"><name>Veiculo</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" kind="function"><name>setX</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" kind="function"><name>setY</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" kind="function"><name>getX</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" kind="function"><name>getY</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" kind="function"><name>MoveX</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" kind="function"><name>MoveY</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a94646a2aae56278b0b9ab17534b0af1b" kind="function"><name>isFabrica</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a969c7819625ad691c345b5e4da429d9b" kind="function"><name>setFabrica</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1aa7fa890566da5c7b16b8f0c11d1f6173" kind="function"><name>getCor</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a1ea0e0d3aea2ca519922b32153107fbd" kind="function"><name>getVelocidade</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" kind="function"><name>moveCarro</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" kind="function"><name>moveCaminhao</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" kind="function"><name>moveMoto</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" kind="function"><name>moveBicicleta</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" kind="function"><name>verificaX</name></member>
+    <member refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" kind="function"><name>verificaY</name></member>
+  </compound>
+  <compound refid="namespaceprojetocc3642" kind="namespace"><name>projetocc3642</name>
+  </compound>
+  <compound refid="_bicicleta_8java" kind="file"><name>Bicicleta.java</name>
+  </compound>
+  <compound refid="_caminhao_8java" kind="file"><name>Caminhao.java</name>
+  </compound>
+  <compound refid="_carro_8java" kind="file"><name>Carro.java</name>
+  </compound>
+  <compound refid="_moto_8java" kind="file"><name>Moto.java</name>
+  </compound>
+  <compound refid="_mundo_8java" kind="file"><name>Mundo.java</name>
+  </compound>
+  <compound refid="_projeto_c_c3642_8java" kind="file"><name>ProjetoCC3642.java</name>
+  </compound>
+  <compound refid="_veiculo_8java" kind="file"><name>Veiculo.java</name>
+  </compound>
+  <compound refid="dir_890a40f391f3d72dfd1bfa2e6e687c88" kind="dir"><name>C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/T-Gamer/Projeto_P1_CC3642/src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classprojetocc3642_1_1_caminhao" kind="class" language="Java" prot="public">
+    <compoundname>projetocc3642::Caminhao</compoundname>
+    <basecompoundref refid="classprojetocc3642_1_1_veiculo" prot="public" virt="non-virtual">projetocc3642.Veiculo</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classprojetocc3642_1_1_caminhao_1abccd2c7ea65a86ca9c42bca48d92db1c" prot="package" static="no" mutable="no">
+        <type><ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref></type>
+        <definition>Veiculo projetocc3642.Caminhao.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <initializer>= new <ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" line="11" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projetocc3642.Caminhao.Caminhao</definition>
+        <argsstring>(int x, int y, int velocidade, String cor, boolean fabrica)</argsstring>
+        <name>Caminhao</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>velocidade</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cor</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>fabrica</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da clase Caminhão que usa a função super para cahamr o construtor da Superclasse <ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>velocidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fabrica</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" line="23" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" bodystart="23" bodyend="26"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" compoundref="_veiculo_8java" startline="347">projetocc3642.Veiculo.velocidade</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" compoundref="_veiculo_8java" startline="349">projetocc3642.Veiculo.cor</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" compoundref="_veiculo_8java" startline="348">projetocc3642.Veiculo.fabrica</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Kayke Bonafé de Luca R.A.: 22.217.003-7 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>projetocc3642.Caminhao</label>
+        <link refid="classprojetocc3642_1_1_caminhao"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>projetocc3642.Veiculo</label>
+        <link refid="classprojetocc3642_1_1_veiculo"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>Random</label>
+      </node>
+      <node id="7">
+        <label>projetocc3642.Caminhao</label>
+        <link refid="classprojetocc3642_1_1_caminhao"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>v</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>projetocc3642.Veiculo</label>
+        <link refid="classprojetocc3642_1_1_veiculo"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>cam</edgelabel>
+          <edgelabel>motoca</edgelabel>
+          <edgelabel>r</edgelabel>
+          <edgelabel>bici</edgelabel>
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" line="9" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Caminhao.java" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classprojetocc3642_1_1_veiculo_1a5f61923c99a3eb9d94f9f5af0f9d1ea6" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>bici</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad20811702ad123f79ae747b2c96e607e" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>c</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a62e4b534ef3e5e9d844cd77e2545747e" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>cam</name></member>
+      <member refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>Caminhao</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1aa7fa890566da5c7b16b8f0c11d1f6173" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>getCor</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a1ea0e0d3aea2ca519922b32153107fbd" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>getVelocidade</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>getX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>getY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a94646a2aae56278b0b9ab17534b0af1b" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>isFabrica</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ac4b93baac1fb11047665ff6a414e763a" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>motoca</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>moveBicicleta</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>moveCaminhao</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>moveCarro</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>moveMoto</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>MoveX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>MoveY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ac0d18c639a52a0a745261ffd33dedf5a" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>r</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a969c7819625ad691c345b5e4da429d9b" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>setFabrica</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>setX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>setY</name></member>
+      <member refid="classprojetocc3642_1_1_caminhao_1abccd2c7ea65a86ca9c42bca48d92db1c" prot="package" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>v</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>Veiculo</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad031e82354dd6022d3de995e08584f7c" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>Veiculo</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>verificaX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" prot="public" virt="non-virtual"><scope>projetocc3642::Caminhao</scope><name>verificaY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

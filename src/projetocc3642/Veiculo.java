@@ -11,6 +11,10 @@ import java.util.Random;
 public class Veiculo {
         
     ///Inicialização das variáveis    
+
+    /**
+     *
+     */
     public Veiculo() {
         x = 0; 
         y = 0; 
@@ -261,35 +265,44 @@ public class Veiculo {
     
     Random bici = new Random();
     
+    /**
+     *
+     * @param bicicleta
+     */
     public void moveBicicleta(Bicicleta bicicleta){
-        
-        int mov;
-        
-        mov = bici.nextInt(4);
-        
-        switch(mov) {
-            case 0:
-                int x1 = bicicleta.getX(); 
-                x1 = x1 + 1;
-                bicicleta.MoveX(verificaX(x1)); 
-	
-            case 1:
-                int x2 = bicicleta.getX();
-                x2 = x2 - 1;
-                bicicleta.MoveX(verificaX(x2));
-            
-            case 2:
+       
+        if (meio == 0) {
+            meio = 1;
+        }
+        else {
+            meio = 0;
                 
-                int y1 = bicicleta.getY();
-                y1 = y1 + 1;
-                bicicleta.MoveY(verificaY(y1));
-		
-            case 3:	
-                int y2 = bicicleta.getY();
-                y2 = y2 - 1;
-                bicicleta.MoveY(verificaY(y2));
-	}        
+            int mov;
         
+            mov = bici.nextInt(4);
+        
+            switch(mov) {
+                case 0:
+                    int x1 = bicicleta.getX(); 
+                    x1 = x1 + 1;
+                    bicicleta.MoveX(verificaX(x1)); 
+	
+                case 1:
+                    int x2 = bicicleta.getX();
+                    x2 = x2 - 1;
+                    bicicleta.MoveX(verificaX(x2));
+            
+                case 2:
+                    int y1 = bicicleta.getY();
+                    y1 = y1 + 1;
+                    bicicleta.MoveY(verificaY(y1));
+		
+                case 3:	
+                    int y2 = bicicleta.getY();
+                    y2 = y2 - 1;
+                    bicicleta.MoveY(verificaY(y2));
+            }        
+        }
     }
     
       /**
@@ -328,7 +341,7 @@ public class Veiculo {
     
     
     
-        
+    private int meio = 0;///Variável que faz com que a bicicleta se mova a cada 2 iterações 
     private int x; ///Coordenada x do veículo
     private int y; ///Coordenada x do veículo
     private int velocidade; ///Velocidade do veículo

@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classprojetocc3642_1_1_veiculo" kind="class" language="Java" prot="public">
+    <compoundname>projetocc3642::Veiculo</compoundname>
+    <derivedcompoundref refid="classprojetocc3642_1_1_bicicleta" prot="public" virt="non-virtual">projetocc3642.Bicicleta</derivedcompoundref>
+    <derivedcompoundref refid="classprojetocc3642_1_1_caminhao" prot="public" virt="non-virtual">projetocc3642.Caminhao</derivedcompoundref>
+    <derivedcompoundref refid="classprojetocc3642_1_1_carro" prot="public" virt="non-virtual">projetocc3642.Carro</derivedcompoundref>
+    <derivedcompoundref refid="classprojetocc3642_1_1_moto" prot="public" virt="non-virtual">projetocc3642.Moto</derivedcompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1ac0d18c639a52a0a745261ffd33dedf5a" prot="package" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random projetocc3642.Veiculo.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Função que garante a posição randomica dos objetos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="48" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1ad20811702ad123f79ae747b2c96e607e" prot="package" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random projetocc3642.Veiculo.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Função random dos carros, para garantir a aleatoriedade dos movimentos dos carros. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="145" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1a62e4b534ef3e5e9d844cd77e2545747e" prot="package" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random projetocc3642.Veiculo.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Função random dos caminhões, para garantir a aleatoriedade dos movimentos dos mesmos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="190" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1ac4b93baac1fb11047665ff6a414e763a" prot="package" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random projetocc3642.Veiculo.motoca</definition>
+        <argsstring></argsstring>
+        <name>motoca</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Função random das motos, para garantir a aleatoriedade dos movimentos das mesmas. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="230" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1a5f61923c99a3eb9d94f9f5af0f9d1ea6" prot="package" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random projetocc3642.Veiculo.bici</definition>
+        <argsstring></argsstring>
+        <name>bici</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="266" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1aad6c010a26cbdd783edb99d17b021d42" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.meio</definition>
+        <argsstring></argsstring>
+        <name>meio</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="344" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="344" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>Variável que faz com que a bicicleta se mova a cada 2 iterações. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="345" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="345" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" compoundref="_bicicleta_8java" startline="22" endline="24">projetocc3642.Bicicleta.Bicicleta</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" compoundref="_caminhao_8java" startline="23" endline="26">projetocc3642.Caminhao.Caminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" compoundref="_carro_8java" startline="23" endline="26">projetocc3642.Carro.Carro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" compoundref="_moto_8java" startline="23" endline="26">projetocc3642.Moto.Moto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" compoundref="_veiculo_8java" startline="18" endline="25">projetocc3642.Veiculo.Veiculo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" compoundref="_veiculo_8java" startline="55" endline="59">projetocc3642.Veiculo.setX</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" compoundref="_veiculo_8java" startline="73" endline="76">projetocc3642.Veiculo.getX</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" compoundref="_veiculo_8java" startline="92" endline="95">projetocc3642.Veiculo.MoveX</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" compoundref="_veiculo_8java" startline="313" endline="323">projetocc3642.Veiculo.verificaX</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>Coordenada x do veículo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="346" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="346" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" compoundref="_bicicleta_8java" startline="22" endline="24">projetocc3642.Bicicleta.Bicicleta</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" compoundref="_caminhao_8java" startline="23" endline="26">projetocc3642.Caminhao.Caminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" compoundref="_carro_8java" startline="23" endline="26">projetocc3642.Carro.Carro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" compoundref="_moto_8java" startline="23" endline="26">projetocc3642.Moto.Moto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" compoundref="_veiculo_8java" startline="18" endline="25">projetocc3642.Veiculo.Veiculo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" compoundref="_veiculo_8java" startline="65" endline="69">projetocc3642.Veiculo.setY</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" compoundref="_veiculo_8java" startline="82" endline="85">projetocc3642.Veiculo.getY</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" compoundref="_veiculo_8java" startline="102" endline="105">projetocc3642.Veiculo.MoveY</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" compoundref="_veiculo_8java" startline="330" endline="338">projetocc3642.Veiculo.verificaY</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.velocidade</definition>
+        <argsstring></argsstring>
+        <name>velocidade</name>
+        <briefdescription>
+<para>Coordenada x do veículo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="347" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="347" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" compoundref="_bicicleta_8java" startline="22" endline="24">projetocc3642.Bicicleta.Bicicleta</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" compoundref="_caminhao_8java" startline="23" endline="26">projetocc3642.Caminhao.Caminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" compoundref="_carro_8java" startline="23" endline="26">projetocc3642.Carro.Carro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" compoundref="_moto_8java" startline="23" endline="26">projetocc3642.Moto.Moto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" compoundref="_veiculo_8java" startline="18" endline="25">projetocc3642.Veiculo.Veiculo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a1ea0e0d3aea2ca519922b32153107fbd" compoundref="_veiculo_8java" startline="139" endline="141">projetocc3642.Veiculo.getVelocidade</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean projetocc3642.Veiculo.fabrica</definition>
+        <argsstring></argsstring>
+        <name>fabrica</name>
+        <briefdescription>
+<para>Velocidade do veículo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="348" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="348" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" compoundref="_bicicleta_8java" startline="22" endline="24">projetocc3642.Bicicleta.Bicicleta</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" compoundref="_caminhao_8java" startline="23" endline="26">projetocc3642.Caminhao.Caminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" compoundref="_carro_8java" startline="23" endline="26">projetocc3642.Carro.Carro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" compoundref="_moto_8java" startline="23" endline="26">projetocc3642.Moto.Moto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" compoundref="_veiculo_8java" startline="18" endline="25">projetocc3642.Veiculo.Veiculo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a94646a2aae56278b0b9ab17534b0af1b" compoundref="_veiculo_8java" startline="112" endline="114">projetocc3642.Veiculo.isFabrica</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a969c7819625ad691c345b5e4da429d9b" compoundref="_veiculo_8java" startline="121" endline="123">projetocc3642.Veiculo.setFabrica</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String projetocc3642.Veiculo.cor</definition>
+        <argsstring></argsstring>
+        <name>cor</name>
+        <briefdescription>
+<para>Informa se o veículo está ou não em uma fábrica. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="349" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="349" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_bicicleta_1a4f7eb1139614334b21b701b4ec101023" compoundref="_bicicleta_8java" startline="22" endline="24">projetocc3642.Bicicleta.Bicicleta</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_caminhao_1a9652803bd3b3cc92de97b6f8a1e72538" compoundref="_caminhao_8java" startline="23" endline="26">projetocc3642.Caminhao.Caminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_carro_1a441341dbf89bf2d4bdc41bd6ad65f8d1" compoundref="_carro_8java" startline="23" endline="26">projetocc3642.Carro.Carro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" compoundref="_moto_8java" startline="23" endline="26">projetocc3642.Moto.Moto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" compoundref="_veiculo_8java" startline="18" endline="25">projetocc3642.Veiculo.Veiculo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1aa7fa890566da5c7b16b8f0c11d1f6173" compoundref="_veiculo_8java" startline="130" endline="132">projetocc3642.Veiculo.getCor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projetocc3642.Veiculo.Veiculo</definition>
+        <argsstring>()</argsstring>
+        <name>Veiculo</name>
+        <briefdescription>
+<para>Inicialização das variáveis. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="18" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="18" bodyend="25"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" compoundref="_veiculo_8java" startline="347">projetocc3642.Veiculo.velocidade</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" compoundref="_veiculo_8java" startline="348">projetocc3642.Veiculo.fabrica</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" compoundref="_veiculo_8java" startline="349">projetocc3642.Veiculo.cor</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1ad031e82354dd6022d3de995e08584f7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projetocc3642.Veiculo.Veiculo</definition>
+        <argsstring>(int x, int y, int velocidade, String cor, boolean fabrica)</argsstring>
+        <name>Veiculo</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>velocidade</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cor</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>fabrica</declname>
+        </param>
+        <briefdescription>
+<para>Construtor da superclasse Veículo Cria os veículos com variáveis que são recebidas na chamada das funções de cada veículo específico. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>velocidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fabrica</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="38" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="38" bodyend="45"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" compoundref="_veiculo_8java" startline="347">projetocc3642.Veiculo.velocidade</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" compoundref="_veiculo_8java" startline="349">projetocc3642.Veiculo.cor</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" compoundref="_veiculo_8java" startline="348">projetocc3642.Veiculo.fabrica</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.setX</definition>
+        <argsstring>()</argsstring>
+        <name>setX</name>
+        <briefdescription>
+<para>Seta um valor aleatório para o parâmetro x do veículo. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O valor gerado para x </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="55" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="55" bodyend="59"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" compoundref="_mundo_8java" startline="225" endline="260">projetocc3642.Mundo.geraVeiculos</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" compoundref="_mundo_8java" startline="408" endline="476">projetocc3642.Mundo.geraVeiculo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.setY</definition>
+        <argsstring>()</argsstring>
+        <name>setY</name>
+        <briefdescription>
+<para>Seta um valor aleatório para o parâmetro y do veículo. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O valor gerado para y </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="65" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="65" bodyend="69"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" compoundref="_mundo_8java" startline="225" endline="260">projetocc3642.Mundo.geraVeiculos</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" compoundref="_mundo_8java" startline="408" endline="476">projetocc3642.Mundo.geraVeiculo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O valor de x do veículo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="73" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="73" bodyend="76"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O valor de y do veículo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="82" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="82" bodyend="85"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.MoveX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>MoveX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Troca o valor de x de acordo com o que for passado pela função dos veiculos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="92" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="92" bodyend="95"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.MoveY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>MoveY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Troca o valor de x de acordo com o que for passado pela função dos veiculos. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="102" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="102" bodyend="105"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a94646a2aae56278b0b9ab17534b0af1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean projetocc3642.Veiculo.isFabrica</definition>
+        <argsstring>()</argsstring>
+        <name>isFabrica</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Se a posição do veículo é igual a da fábrica </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="112" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="112" bodyend="114"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" compoundref="_veiculo_8java" startline="348">projetocc3642.Veiculo.fabrica</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a969c7819625ad691c345b5e4da429d9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.setFabrica</definition>
+        <argsstring>(boolean fabrica)</argsstring>
+        <name>setFabrica</name>
+        <param>
+          <type>boolean</type>
+          <declname>fabrica</declname>
+        </param>
+        <briefdescription>
+<para>Define se o veículo está ou não dentro da fábrica, pois se estiver, um novo será gerado. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fabrica</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="121" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="121" bodyend="123"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" compoundref="_veiculo_8java" startline="348">projetocc3642.Veiculo.fabrica</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1aa7fa890566da5c7b16b8f0c11d1f6173" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String projetocc3642.Veiculo.getCor</definition>
+        <argsstring>()</argsstring>
+        <name>getCor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A cor do veículo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="130" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="130" bodyend="132"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" compoundref="_veiculo_8java" startline="349">projetocc3642.Veiculo.cor</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a1ea0e0d3aea2ca519922b32153107fbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.getVelocidade</definition>
+        <argsstring>()</argsstring>
+        <name>getVelocidade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A velocidade do veículo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="139" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="139" bodyend="141"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" compoundref="_veiculo_8java" startline="347">projetocc3642.Veiculo.velocidade</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.moveCarro</definition>
+        <argsstring>(Carro carro)</argsstring>
+        <name>moveCarro</name>
+        <param>
+          <type><ref refid="classprojetocc3642_1_1_carro" kindref="compound">Carro</ref></type>
+          <declname>carro</declname>
+        </param>
+        <briefdescription>
+<para>Função que movimenta o carro, recebendo um objeto da classe carro como parâmetro. </para>        </briefdescription>
+        <detaileddescription>
+<para>Como dito na função abaixo, a estrutura presente na função move carro é a mesma para as outras 3</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Variável que recebe o número aleatório gerado pela função random</para><para>Gerando um número aleatório para movimentação do veículo para cima, para baixo, para esquerda ou para a direita</para><para>Switch que verifica o resultado do random e o movimenta</para><para>Obtenção do valor atual da posição x</para><para>Somando a velocidade do carro no valor atual do x <linebreak/>
+ Chamada da função moveX da classe Veículo para realizar a movimentação Essa estrutura se repete nos próximos cases e nos próximos 2 veículos </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="155" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="155" bodyend="185"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" compoundref="_veiculo_8java" startline="73" endline="76">projetocc3642.Veiculo.getX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" compoundref="_veiculo_8java" startline="92" endline="95">projetocc3642.Veiculo.MoveX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" compoundref="_veiculo_8java" startline="313" endline="323">projetocc3642.Veiculo.verificaX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" compoundref="_veiculo_8java" startline="82" endline="85">projetocc3642.Veiculo.getY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" compoundref="_veiculo_8java" startline="102" endline="105">projetocc3642.Veiculo.MoveY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" compoundref="_veiculo_8java" startline="330" endline="338">projetocc3642.Veiculo.verificaY</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.moveCaminhao</definition>
+        <argsstring>(Caminhao caminhao)</argsstring>
+        <name>moveCaminhao</name>
+        <param>
+          <type><ref refid="classprojetocc3642_1_1_caminhao" kindref="compound">Caminhao</ref></type>
+          <declname>caminhao</declname>
+        </param>
+        <briefdescription>
+<para>Função que movimenta o caminhão, recebendo um objeto da classe caminhão como parâmetro. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="197" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="197" bodyend="225"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" compoundref="_veiculo_8java" startline="73" endline="76">projetocc3642.Veiculo.getX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" compoundref="_veiculo_8java" startline="92" endline="95">projetocc3642.Veiculo.MoveX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" compoundref="_veiculo_8java" startline="313" endline="323">projetocc3642.Veiculo.verificaX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" compoundref="_veiculo_8java" startline="82" endline="85">projetocc3642.Veiculo.getY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" compoundref="_veiculo_8java" startline="102" endline="105">projetocc3642.Veiculo.MoveY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" compoundref="_veiculo_8java" startline="330" endline="338">projetocc3642.Veiculo.verificaY</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.moveMoto</definition>
+        <argsstring>(Moto moto)</argsstring>
+        <name>moveMoto</name>
+        <param>
+          <type><ref refid="classprojetocc3642_1_1_moto" kindref="compound">Moto</ref></type>
+          <declname>moto</declname>
+        </param>
+        <briefdescription>
+<para>Função que movimenta a motoca, recebendo um objeto da classe motoca como parâmetro. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>moto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="236" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="236" bodyend="264"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" compoundref="_veiculo_8java" startline="73" endline="76">projetocc3642.Veiculo.getX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" compoundref="_veiculo_8java" startline="92" endline="95">projetocc3642.Veiculo.MoveX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" compoundref="_veiculo_8java" startline="313" endline="323">projetocc3642.Veiculo.verificaX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" compoundref="_veiculo_8java" startline="82" endline="85">projetocc3642.Veiculo.getY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" compoundref="_veiculo_8java" startline="102" endline="105">projetocc3642.Veiculo.MoveY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" compoundref="_veiculo_8java" startline="330" endline="338">projetocc3642.Veiculo.verificaY</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Veiculo.moveBicicleta</definition>
+        <argsstring>(Bicicleta bicicleta)</argsstring>
+        <name>moveBicicleta</name>
+        <param>
+          <type><ref refid="classprojetocc3642_1_1_bicicleta" kindref="compound">Bicicleta</ref></type>
+          <declname>bicicleta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bicicleta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="272" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="272" bodyend="306"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1aad6c010a26cbdd783edb99d17b021d42" compoundref="_veiculo_8java" startline="344">projetocc3642.Veiculo.meio</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" compoundref="_veiculo_8java" startline="73" endline="76">projetocc3642.Veiculo.getX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" compoundref="_veiculo_8java" startline="92" endline="95">projetocc3642.Veiculo.MoveX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" compoundref="_veiculo_8java" startline="313" endline="323">projetocc3642.Veiculo.verificaX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" compoundref="_veiculo_8java" startline="82" endline="85">projetocc3642.Veiculo.getY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" compoundref="_veiculo_8java" startline="102" endline="105">projetocc3642.Veiculo.MoveY</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" compoundref="_veiculo_8java" startline="330" endline="338">projetocc3642.Veiculo.verificaY</references>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.verificaX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>verificaX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que verifica se o veículo chegou ao fim do mundo em x e reseta a coordenada. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a coordenada resetada </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="313" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="313" bodyend="323"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" compoundref="_veiculo_8java" startline="345">projetocc3642.Veiculo.x</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projetocc3642.Veiculo.verificaY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>verificaY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Função que verifica se o veículo chegou ao fim do mundo em y e reseta a coordenada. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a coordenada resetada </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="330" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="330" bodyend="338"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" compoundref="_veiculo_8java" startline="346">projetocc3642.Veiculo.y</references>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" compoundref="_veiculo_8java" startline="155" endline="185">projetocc3642.Veiculo.moveCarro</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" compoundref="_veiculo_8java" startline="197" endline="225">projetocc3642.Veiculo.moveCaminhao</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" compoundref="_veiculo_8java" startline="236" endline="264">projetocc3642.Veiculo.moveMoto</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" compoundref="_veiculo_8java" startline="272" endline="306">projetocc3642.Veiculo.moveBicicleta</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Kayke Bonafé de Luca R.A.: 22.217.003-7 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>projetocc3642.Moto</label>
+        <link refid="classprojetocc3642_1_1_moto"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>projetocc3642.Bicicleta</label>
+        <link refid="classprojetocc3642_1_1_bicicleta"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>projetocc3642.Caminhao</label>
+        <link refid="classprojetocc3642_1_1_caminhao"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>projetocc3642.Veiculo</label>
+        <link refid="classprojetocc3642_1_1_veiculo"/>
+      </node>
+      <node id="33">
+        <label>projetocc3642.Carro</label>
+        <link refid="classprojetocc3642_1_1_carro"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>Random</label>
+      </node>
+      <node id="35">
+        <label>projetocc3642.Veiculo</label>
+        <link refid="classprojetocc3642_1_1_veiculo"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>cam</edgelabel>
+          <edgelabel>motoca</edgelabel>
+          <edgelabel>r</edgelabel>
+          <edgelabel>bici</edgelabel>
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" line="11" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Veiculo.java" bodystart="11" bodyend="351"/>
+    <listofallmembers>
+      <member refid="classprojetocc3642_1_1_veiculo_1a5f61923c99a3eb9d94f9f5af0f9d1ea6" prot="package" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>bici</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad20811702ad123f79ae747b2c96e607e" prot="package" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>c</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a62e4b534ef3e5e9d844cd77e2545747e" prot="package" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>cam</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>cor</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>fabrica</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1aa7fa890566da5c7b16b8f0c11d1f6173" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>getCor</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a1ea0e0d3aea2ca519922b32153107fbd" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>getVelocidade</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad7162bd5b883603e42b90cf8a866a02e" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>getX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1add79df79902a08fd900ff9b988814233" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>getY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a94646a2aae56278b0b9ab17534b0af1b" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>isFabrica</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1aad6c010a26cbdd783edb99d17b021d42" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>meio</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ac4b93baac1fb11047665ff6a414e763a" prot="package" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>motoca</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ab97097adda5bd18a0bac944035629c5f" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>moveBicicleta</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a85b1534b28cecd7a9e0f1ee0f14c974a" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>moveCaminhao</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1acf6147f56489aac694024cfd001f2b63" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>moveCarro</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a93ffe5019f130c6750dcde073687b9b8" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>moveMoto</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1abe6eba890569d09d3f92738a00a3a0ec" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>MoveX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a68533912c36c793eac7e4db9bfe93a5c" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>MoveY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ac0d18c639a52a0a745261ffd33dedf5a" prot="package" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>r</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a969c7819625ad691c345b5e4da429d9b" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>setFabrica</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>setX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>setY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>Veiculo</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ad031e82354dd6022d3de995e08584f7c" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>Veiculo</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>velocidade</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a3d9bb91a7f199cdd0c1b237c144a09c2" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>verificaX</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1afd6ec39ff0c4292505499065fd391d90" prot="public" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>verificaY</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>x</name></member>
+      <member refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" prot="private" virt="non-virtual"><scope>projetocc3642::Veiculo</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

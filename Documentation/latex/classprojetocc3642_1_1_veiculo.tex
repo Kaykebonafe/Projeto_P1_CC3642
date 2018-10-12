@@ -1,0 +1,416 @@
+\section{projetocc3642.\+Veiculo Class Reference}
+\label{classprojetocc3642_1_1_veiculo}\index{projetocc3642.\+Veiculo@{projetocc3642.\+Veiculo}}
+
+
+Inheritance diagram for projetocc3642.\+Veiculo\+:
+% FIG 0
+
+
+Collaboration diagram for projetocc3642.\+Veiculo\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Veiculo} ()
+\begin{DoxyCompactList}\small\item\em Inicialização das variáveis. \end{DoxyCompactList}\item 
+\textbf{ Veiculo} (int \textbf{ x}, int \textbf{ y}, int \textbf{ velocidade}, String \textbf{ cor}, boolean \textbf{ fabrica})
+\begin{DoxyCompactList}\small\item\em Construtor da superclasse Veículo Cria os veículos com variáveis que são recebidas na chamada das funções de cada veículo específico. \end{DoxyCompactList}\item 
+int \textbf{ setX} ()
+\begin{DoxyCompactList}\small\item\em Seta um valor aleatório para o parâmetro x do veículo. \end{DoxyCompactList}\item 
+int \textbf{ setY} ()
+\begin{DoxyCompactList}\small\item\em Seta um valor aleatório para o parâmetro y do veículo. \end{DoxyCompactList}\item 
+int \textbf{ getX} ()
+\item 
+int \textbf{ getY} ()
+\item 
+void \textbf{ MoveX} (int \textbf{ x})
+\begin{DoxyCompactList}\small\item\em Troca o valor de x de acordo com o que for passado pela função dos veiculos. \end{DoxyCompactList}\item 
+void \textbf{ MoveY} (int \textbf{ y})
+\begin{DoxyCompactList}\small\item\em Troca o valor de x de acordo com o que for passado pela função dos veiculos. \end{DoxyCompactList}\item 
+boolean \textbf{ is\+Fabrica} ()
+\item 
+void \textbf{ set\+Fabrica} (boolean \textbf{ fabrica})
+\begin{DoxyCompactList}\small\item\em Define se o veículo está ou não dentro da fábrica, pois se estiver, um novo será gerado. \end{DoxyCompactList}\item 
+String \textbf{ get\+Cor} ()
+\item 
+int \textbf{ get\+Velocidade} ()
+\item 
+void \textbf{ move\+Carro} (\textbf{ Carro} carro)
+\begin{DoxyCompactList}\small\item\em Função que movimenta o carro, recebendo um objeto da classe carro como parâmetro. \end{DoxyCompactList}\item 
+void \textbf{ move\+Caminhao} (\textbf{ Caminhao} caminhao)
+\begin{DoxyCompactList}\small\item\em Função que movimenta o caminhão, recebendo um objeto da classe caminhão como parâmetro. \end{DoxyCompactList}\item 
+void \textbf{ move\+Moto} (\textbf{ Moto} moto)
+\begin{DoxyCompactList}\small\item\em Função que movimenta a motoca, recebendo um objeto da classe motoca como parâmetro. \end{DoxyCompactList}\item 
+void \textbf{ move\+Bicicleta} (\textbf{ Bicicleta} bicicleta)
+\item 
+int \textbf{ verificaX} (int \textbf{ x})
+\begin{DoxyCompactList}\small\item\em Função que verifica se o veículo chegou ao fim do mundo em x e reseta a coordenada. \end{DoxyCompactList}\item 
+int \textbf{ verificaY} (int \textbf{ y})
+\begin{DoxyCompactList}\small\item\em Função que verifica se o veículo chegou ao fim do mundo em y e reseta a coordenada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ meio} = 0
+\item 
+int \textbf{ x}
+\begin{DoxyCompactList}\small\item\em Variável que faz com que a bicicleta se mova a cada 2 iterações. \end{DoxyCompactList}\item 
+int \textbf{ y}
+\begin{DoxyCompactList}\small\item\em Coordenada x do veículo. \end{DoxyCompactList}\item 
+int \textbf{ velocidade}
+\begin{DoxyCompactList}\small\item\em Coordenada x do veículo. \end{DoxyCompactList}\item 
+boolean \textbf{ fabrica}
+\begin{DoxyCompactList}\small\item\em Velocidade do veículo. \end{DoxyCompactList}\item 
+String \textbf{ cor}
+\begin{DoxyCompactList}\small\item\em Informa se o veículo está ou não em uma fábrica. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Kayke Bonafé de Luca R.\+A.\+: 22.\+217.\+003-\/7 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classprojetocc3642_1_1_veiculo_ae77d6bc7396626fb11fa5800dc3ecac4}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!Veiculo@{Veiculo}}
+\index{Veiculo@{Veiculo}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{Veiculo()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily projetocc3642.\+Veiculo.\+Veiculo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inicialização das variáveis. 
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_ad031e82354dd6022d3de995e08584f7c}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!Veiculo@{Veiculo}}
+\index{Veiculo@{Veiculo}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{Veiculo()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily projetocc3642.\+Veiculo.\+Veiculo (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{velocidade,  }\item[{String}]{cor,  }\item[{boolean}]{fabrica }\end{DoxyParamCaption})}
+
+
+
+Construtor da superclasse Veículo Cria os veículos com variáveis que são recebidas na chamada das funções de cada veículo específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em velocidade} & \\
+\hline
+{\em cor} & \\
+\hline
+{\em fabrica} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{classprojetocc3642_1_1_veiculo_aa7fa890566da5c7b16b8f0c11d1f6173}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!get\+Cor@{get\+Cor}}
+\index{get\+Cor@{get\+Cor}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{get\+Cor()}
+{\footnotesize\ttfamily String projetocc3642.\+Veiculo.\+get\+Cor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A cor do veículo 
+\end{DoxyReturn}
+\mbox{\label{classprojetocc3642_1_1_veiculo_a1ea0e0d3aea2ca519922b32153107fbd}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!get\+Velocidade@{get\+Velocidade}}
+\index{get\+Velocidade@{get\+Velocidade}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{get\+Velocidade()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+get\+Velocidade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A velocidade do veículo 
+\end{DoxyReturn}
+\mbox{\label{classprojetocc3642_1_1_veiculo_ad7162bd5b883603e42b90cf8a866a02e}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!getX@{getX}}
+\index{getX@{getX}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{get\+X()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+O valor de x do veículo 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\label{classprojetocc3642_1_1_veiculo_add79df79902a08fd900ff9b988814233}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!getY@{getY}}
+\index{getY@{getY}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{get\+Y()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+O valor de y do veículo 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\label{classprojetocc3642_1_1_veiculo_a94646a2aae56278b0b9ab17534b0af1b}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!is\+Fabrica@{is\+Fabrica}}
+\index{is\+Fabrica@{is\+Fabrica}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{is\+Fabrica()}
+{\footnotesize\ttfamily boolean projetocc3642.\+Veiculo.\+is\+Fabrica (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Se a posição do veículo é igual a da fábrica 
+\end{DoxyReturn}
+\mbox{\label{classprojetocc3642_1_1_veiculo_ab97097adda5bd18a0bac944035629c5f}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!move\+Bicicleta@{move\+Bicicleta}}
+\index{move\+Bicicleta@{move\+Bicicleta}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{move\+Bicicleta()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+move\+Bicicleta (\begin{DoxyParamCaption}\item[{\textbf{ Bicicleta}}]{bicicleta }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em bicicleta} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 4
+\mbox{\label{classprojetocc3642_1_1_veiculo_a85b1534b28cecd7a9e0f1ee0f14c974a}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!move\+Caminhao@{move\+Caminhao}}
+\index{move\+Caminhao@{move\+Caminhao}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{move\+Caminhao()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+move\+Caminhao (\begin{DoxyParamCaption}\item[{\textbf{ Caminhao}}]{caminhao }\end{DoxyParamCaption})}
+
+
+
+Função que movimenta o caminhão, recebendo um objeto da classe caminhão como parâmetro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em caminhao} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 5
+\mbox{\label{classprojetocc3642_1_1_veiculo_acf6147f56489aac694024cfd001f2b63}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!move\+Carro@{move\+Carro}}
+\index{move\+Carro@{move\+Carro}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{move\+Carro()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+move\+Carro (\begin{DoxyParamCaption}\item[{\textbf{ Carro}}]{carro }\end{DoxyParamCaption})}
+
+
+
+Função que movimenta o carro, recebendo um objeto da classe carro como parâmetro. 
+
+Como dito na função abaixo, a estrutura presente na função move carro é a mesma para as outras 3
+
+
+\begin{DoxyParams}{Parameters}
+{\em carro} & \\
+\hline
+\end{DoxyParams}
+Variável que recebe o número aleatório gerado pela função random
+
+Gerando um número aleatório para movimentação do veículo para cima, para baixo, para esquerda ou para a direita
+
+Switch que verifica o resultado do random e o movimenta
+
+Obtenção do valor atual da posição x
+
+Somando a velocidade do carro no valor atual do x ~\newline
+ Chamada da função moveX da classe Veículo para realizar a movimentação Essa estrutura se repete nos próximos cases e nos próximos 2 veículos Here is the call graph for this function\+:
+% FIG 6
+\mbox{\label{classprojetocc3642_1_1_veiculo_a93ffe5019f130c6750dcde073687b9b8}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!move\+Moto@{move\+Moto}}
+\index{move\+Moto@{move\+Moto}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{move\+Moto()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+move\+Moto (\begin{DoxyParamCaption}\item[{\textbf{ Moto}}]{moto }\end{DoxyParamCaption})}
+
+
+
+Função que movimenta a motoca, recebendo um objeto da classe motoca como parâmetro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em moto} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 7
+\mbox{\label{classprojetocc3642_1_1_veiculo_abe6eba890569d09d3f92738a00a3a0ec}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!MoveX@{MoveX}}
+\index{MoveX@{MoveX}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{Move\+X()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+MoveX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Troca o valor de x de acordo com o que for passado pela função dos veiculos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\label{classprojetocc3642_1_1_veiculo_a68533912c36c793eac7e4db9bfe93a5c}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!MoveY@{MoveY}}
+\index{MoveY@{MoveY}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{Move\+Y()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+MoveY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Troca o valor de x de acordo com o que for passado pela função dos veiculos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\label{classprojetocc3642_1_1_veiculo_a969c7819625ad691c345b5e4da429d9b}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!set\+Fabrica@{set\+Fabrica}}
+\index{set\+Fabrica@{set\+Fabrica}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{set\+Fabrica()}
+{\footnotesize\ttfamily void projetocc3642.\+Veiculo.\+set\+Fabrica (\begin{DoxyParamCaption}\item[{boolean}]{fabrica }\end{DoxyParamCaption})}
+
+
+
+Define se o veículo está ou não dentro da fábrica, pois se estiver, um novo será gerado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fabrica} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classprojetocc3642_1_1_veiculo_a36c3196f53366f42a4f92baad23cd288}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!setX@{setX}}
+\index{setX@{setX}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{set\+X()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+setX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Seta um valor aleatório para o parâmetro x do veículo. 
+
+\begin{DoxyReturn}{Returns}
+O valor gerado para x 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 10
+\mbox{\label{classprojetocc3642_1_1_veiculo_a513d4f5392f1fd8a6f9ee6970f9a178c}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!setY@{setY}}
+\index{setY@{setY}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{set\+Y()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+setY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Seta um valor aleatório para o parâmetro y do veículo. 
+
+\begin{DoxyReturn}{Returns}
+O valor gerado para y 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\label{classprojetocc3642_1_1_veiculo_a3d9bb91a7f199cdd0c1b237c144a09c2}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!verificaX@{verificaX}}
+\index{verificaX@{verificaX}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{verifica\+X()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+verificaX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que verifica se o veículo chegou ao fim do mundo em x e reseta a coordenada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a coordenada resetada 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 12
+\mbox{\label{classprojetocc3642_1_1_veiculo_afd6ec39ff0c4292505499065fd391d90}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!verificaY@{verificaY}}
+\index{verificaY@{verificaY}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{verifica\+Y()}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+verificaY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Função que verifica se o veículo chegou ao fim do mundo em y e reseta a coordenada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a coordenada resetada 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 13
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{classprojetocc3642_1_1_veiculo_a00d11c61df9260163eeaa7c3c732f0dc}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!cor@{cor}}
+\index{cor@{cor}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{cor}
+{\footnotesize\ttfamily String projetocc3642.\+Veiculo.\+cor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Informa se o veículo está ou não em uma fábrica. 
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_a0befcde7746cec95015bf2ccea39ef56}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!fabrica@{fabrica}}
+\index{fabrica@{fabrica}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{fabrica}
+{\footnotesize\ttfamily boolean projetocc3642.\+Veiculo.\+fabrica\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Velocidade do veículo. 
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_aad6c010a26cbdd783edb99d17b021d42}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!meio@{meio}}
+\index{meio@{meio}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{meio}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+meio = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_ae15060194405b0f6297413d738d6070d}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!velocidade@{velocidade}}
+\index{velocidade@{velocidade}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{velocidade}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+velocidade\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordenada x do veículo. 
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_a9b0f7dd30fb4621dc329a31cb99a1435}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!x@{x}}
+\index{x@{x}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{x}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+x\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variável que faz com que a bicicleta se mova a cada 2 iterações. 
+
+\mbox{\label{classprojetocc3642_1_1_veiculo_add4c4ca82855c09c7d88494d53b1033d}} 
+\index{projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}!y@{y}}
+\index{y@{y}!projetocc3642\+::\+Veiculo@{projetocc3642\+::\+Veiculo}}
+\subsubsection{y}
+{\footnotesize\ttfamily int projetocc3642.\+Veiculo.\+y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordenada x do veículo. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+T-\/\+Gamer/\+Projeto\+\_\+\+P1\+\_\+\+C\+C3642/src/projetocc3642/\textbf{ Veiculo.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,52 @@
+\section{projetocc3642.\+Bicicleta Class Reference}
+\label{classprojetocc3642_1_1_bicicleta}\index{projetocc3642.\+Bicicleta@{projetocc3642.\+Bicicleta}}
+
+
+Inheritance diagram for projetocc3642.\+Bicicleta\+:
+% FIG 0
+
+
+Collaboration diagram for projetocc3642.\+Bicicleta\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Bicicleta} (int \textbf{ x}, int \textbf{ y}, int \textbf{ velocidade}, String \textbf{ cor}, boolean \textbf{ fabrica})
+\begin{DoxyCompactList}\small\item\em Construtor da clase \doxyref{Bicicleta}{p.}{classprojetocc3642_1_1_bicicleta} que usa a função super para cahamr o construtor da Superclasse \doxyref{Veiculo}{p.}{classprojetocc3642_1_1_veiculo}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Kayke Bonafé de Luca R.\+A.\+: 22.\+217.\+003-\/7 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classprojetocc3642_1_1_bicicleta_a4f7eb1139614334b21b701b4ec101023}} 
+\index{projetocc3642\+::\+Bicicleta@{projetocc3642\+::\+Bicicleta}!Bicicleta@{Bicicleta}}
+\index{Bicicleta@{Bicicleta}!projetocc3642\+::\+Bicicleta@{projetocc3642\+::\+Bicicleta}}
+\subsubsection{Bicicleta()}
+{\footnotesize\ttfamily projetocc3642.\+Bicicleta.\+Bicicleta (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{velocidade,  }\item[{String}]{cor,  }\item[{boolean}]{fabrica }\end{DoxyParamCaption})}
+
+
+
+Construtor da clase \doxyref{Bicicleta}{p.}{classprojetocc3642_1_1_bicicleta} que usa a função super para cahamr o construtor da Superclasse \doxyref{Veiculo}{p.}{classprojetocc3642_1_1_veiculo}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em velocidade} & \\
+\hline
+{\em cor} & \\
+\hline
+{\em fabrica} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+T-\/\+Gamer/\+Projeto\+\_\+\+P1\+\_\+\+C\+C3642/src/projetocc3642/\textbf{ Bicicleta.\+java}\end{DoxyCompactItemize}

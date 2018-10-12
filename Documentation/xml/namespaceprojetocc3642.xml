@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespaceprojetocc3642" kind="namespace" language="Java">
+    <compoundname>projetocc3642</compoundname>
+    <innerclass refid="classprojetocc3642_1_1_bicicleta" prot="public">projetocc3642::Bicicleta</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_caminhao" prot="public">projetocc3642::Caminhao</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_carro" prot="public">projetocc3642::Carro</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_moto" prot="public">projetocc3642::Moto</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_mundo" prot="public">projetocc3642::Mundo</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_projeto_c_c3642" prot="public">projetocc3642::ProjetoCC3642</innerclass>
+    <innerclass refid="classprojetocc3642_1_1_veiculo" prot="public">projetocc3642::Veiculo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Bicicleta.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

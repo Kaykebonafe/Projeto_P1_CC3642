@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_moto_8java" kind="file" language="Java">
+    <compoundname>Moto.java</compoundname>
+    <innerclass refid="classprojetocc3642_1_1_moto" prot="public">projetocc3642::Moto</innerclass>
+    <innernamespace refid="namespaceprojetocc3642">projetocc3642</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">projetocc3642;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classprojetocc3642_1_1_moto" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classprojetocc3642_1_1_moto" kindref="compound">Moto</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref><sp/>v<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo_1ae77d6bc7396626fb11fa5800dc3ecac4" kindref="member">Veiculo</ref>();</highlight></codeline>
+<codeline lineno="23" refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_moto_1aab9a17c2ecd1118c2bcdde06a012166f" kindref="member">Moto</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" kindref="member">x</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" kindref="member">y</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" kindref="member">velocidade</ref>,<sp/>String<sp/><ref refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" kindref="member">cor</ref>,<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" kindref="member">fabrica</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="classprojetocc3642_1_1_veiculo_1a9b0f7dd30fb4621dc329a31cb99a1435" kindref="member">x</ref>,<sp/><ref refid="classprojetocc3642_1_1_veiculo_1add4c4ca82855c09c7d88494d53b1033d" kindref="member">y</ref>,<sp/><ref refid="classprojetocc3642_1_1_veiculo_1ae15060194405b0f6297413d738d6070d" kindref="member">velocidade</ref>,<sp/><ref refid="classprojetocc3642_1_1_veiculo_1a00d11c61df9260163eeaa7c3c732f0dc" kindref="member">cor</ref>,<sp/><ref refid="classprojetocc3642_1_1_veiculo_1a0befcde7746cec95015bf2ccea39ef56" kindref="member">fabrica</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Moto.java"/>
+  </compounddef>
+</doxygen>

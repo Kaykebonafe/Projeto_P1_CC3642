@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classprojetocc3642_1_1_mundo" kind="class" language="Java" prot="public">
+    <compoundname>projetocc3642::Mundo</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1aeb0662b27f7751253e25ef58afda6b98" prot="package" static="no" mutable="no">
+        <type><ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref></type>
+        <definition>Veiculo projetocc3642.Mundo.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <initializer>= new <ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref>()</initializer>
+        <briefdescription>
+<para>Instanciando a superclasse <ref refid="classprojetocc3642_1_1_veiculo" kindref="compound">Veiculo</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="13" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1adcf992aefc45b1cc81bc99ba08094279" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classprojetocc3642_1_1_carro" kindref="compound">Carro</ref> &gt;</type>
+        <definition>ArrayList&lt;Carro&gt; projetocc3642.Mundo.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+<para>Criação dos ArrayLists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="16" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1a6153947889643d2d3e79b79ce88f99b2" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classprojetocc3642_1_1_caminhao" kindref="compound">Caminhao</ref> &gt;</type>
+        <definition>ArrayList&lt;Caminhao&gt; projetocc3642.Mundo.ca</definition>
+        <argsstring></argsstring>
+        <name>ca</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+<para>ArrayList de Carros. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="17" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1ae487a57360765f20fc56c3b3ef4f3f0b" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classprojetocc3642_1_1_bicicleta" kindref="compound">Bicicleta</ref> &gt;</type>
+        <definition>ArrayList&lt;Bicicleta&gt; projetocc3642.Mundo.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+<para>ArrayList de Caminhões. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="18" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1a128cd965ad6e95ea0ae4506187702063" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classprojetocc3642_1_1_moto" kindref="compound">Moto</ref> &gt;</type>
+        <definition>ArrayList&lt;Moto&gt; projetocc3642.Mundo.m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+<para>ArrayList de Bicicletas. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="19" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int projetocc3642.Mundo.mapa[][]</definition>
+        <argsstring>[][]</argsstring>
+        <name>mapa</name>
+        <briefdescription>
+<para>ArrayList de Motos. </para>        </briefdescription>
+        <detaileddescription>
+<para>Mapa do mundo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="22" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1aa9b445c0bffbc8f320925780bdf84fad" compoundref="_mundo_8java" startline="56" endline="130">projetocc3642.Mundo.desenhaMundo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1a694c5bf2f661852f686f74d8f7cd68d9" compoundref="_mundo_8java" startline="133" endline="222">projetocc3642.Mundo.zeraMapa</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" compoundref="_mundo_8java" startline="225" endline="260">projetocc3642.Mundo.geraVeiculos</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" compoundref="_mundo_8java" startline="408" endline="476">projetocc3642.Mundo.geraVeiculo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1aa9b445c0bffbc8f320925780bdf84fad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.desenhaMundo</definition>
+        <argsstring>()</argsstring>
+        <name>desenhaMundo</name>
+        <briefdescription>
+<para>Função que desenha o mundo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Variáveis que contém as cores dos itens no mapa</para><para>Código ANSI refetente a cor Azul</para><para>Código ANSI referente a cor Verde</para><para>Código ANSI referente a cor Roxa</para><para>Código ANSI referente a cor Amarela</para><para>Código ANSI referente a cor Preta</para><para>Código ANSI referente a cor Branca</para><para>Código ANSI referente a cor Vermelha <linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+ Contadores do número de veículos presentes na simulação</para><para>Iterações que geram o mapa</para><para>Print das legendas</para><para>Contadores </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="56" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="56" bodyend="130"/>
+        <references refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" compoundref="_mundo_8java" startline="22">projetocc3642.Mundo.mapa</references>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" compoundref="_mundo_8java" startline="479" endline="500">projetocc3642.Mundo.atualizaMundo</referencedby>
+        <referencedby refid="classprojetocc3642_1_1_projeto_c_c3642_1ae9791a0530e6a908cf4e930e109fba86" compoundref="_projeto_c_c3642_8java" startline="18" endline="32">projetocc3642.ProjetoCC3642.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1a694c5bf2f661852f686f74d8f7cd68d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.zeraMapa</definition>
+        <argsstring>()</argsstring>
+        <name>zeraMapa</name>
+        <briefdescription>
+<para>Função que limpa o rastro dos veículos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Adição de novos veículos ao mapa</para><para>Coordenadas no plano cartesiano</para><para>Adição de novos veículos ao mapa</para><para>Coordenadas no plano cartesiano</para><para>Adição de novos veículos ao mapa <linebreak/>
+<linebreak/>
+<linebreak/>
+ Coordenadas no plano cartesiano</para><para>Adição de novos veículos ao mapa <linebreak/>
+ Coordenadas no plano cartesiano </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="133" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="133" bodyend="222"/>
+        <references refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" compoundref="_mundo_8java" startline="22">projetocc3642.Mundo.mapa</references>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" compoundref="_mundo_8java" startline="479" endline="500">projetocc3642.Mundo.atualizaMundo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.geraVeiculos</definition>
+        <argsstring>()</argsstring>
+        <name>geraVeiculos</name>
+        <briefdescription>
+<para>Função que gera os veículos randomicamente. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Esse while verifica se a localização do veículo gerado é igual a localização da fábrica, se sim, troca ele de lugar, se repete para os outros </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="225" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="225" bodyend="260"/>
+        <references refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" compoundref="_veiculo_8java" startline="55" endline="59">projetocc3642.Veiculo.setX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" compoundref="_veiculo_8java" startline="65" endline="69">projetocc3642.Veiculo.setY</references>
+        <references refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" compoundref="_mundo_8java" startline="22">projetocc3642.Mundo.mapa</references>
+        <referencedby refid="classprojetocc3642_1_1_projeto_c_c3642_1ae9791a0530e6a908cf4e930e109fba86" compoundref="_projeto_c_c3642_8java" startline="18" endline="32">projetocc3642.ProjetoCC3642.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1a744f794ef8ed86c2e7decbaa22972c76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.detectaColisao</definition>
+        <argsstring>()</argsstring>
+        <name>detectaColisao</name>
+        <briefdescription>
+<para>Função de detecção de colisão. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Colisão de bicicleta com bicicleta <linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+ Colisão de caminhão com caminhão <linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+<linebreak/>
+ Colisão de carro com carro</para><para>Colisão de moto com moto</para><para>Colisão entre caminhão e bicicleta</para><para>Colisão entre caminhão e carro</para><para>Colisão entre caminhão e moto</para><para>Colisão entre carro e bicicleta</para><para>Colisão entre carro e moto</para><para>Colisão de moto com bicicleta </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="263" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="263" bodyend="405"/>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" compoundref="_mundo_8java" startline="479" endline="500">projetocc3642.Mundo.atualizaMundo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.geraVeiculo</definition>
+        <argsstring>()</argsstring>
+        <name>geraVeiculo</name>
+        <briefdescription>
+<para>Função que gera um veículo novo assim que o mesmo passa por uma fábrica. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><ref refid="classprojetocc3642_1_1_bicicleta" kindref="compound">Bicicleta</ref></para><para><ref refid="classprojetocc3642_1_1_carro" kindref="compound">Carro</ref></para><para>O veículo não gera mais um outro veículo se ele ja foi gerado antes <linebreak/>
+<linebreak/>
+ Caminhão <linebreak/>
+ <ref refid="classprojetocc3642_1_1_moto" kindref="compound">Moto</ref> </para>        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="408" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="408" bodyend="476"/>
+        <references refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" compoundref="_mundo_8java" startline="22">projetocc3642.Mundo.mapa</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a36c3196f53366f42a4f92baad23cd288" compoundref="_veiculo_8java" startline="55" endline="59">projetocc3642.Veiculo.setX</references>
+        <references refid="classprojetocc3642_1_1_veiculo_1a513d4f5392f1fd8a6f9ee6970f9a178c" compoundref="_veiculo_8java" startline="65" endline="69">projetocc3642.Veiculo.setY</references>
+        <referencedby refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" compoundref="_mundo_8java" startline="479" endline="500">projetocc3642.Mundo.atualizaMundo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projetocc3642.Mundo.atualizaMundo</definition>
+        <argsstring>()</argsstring>
+        <name>atualizaMundo</name>
+        <briefdescription>
+<para>Função que &quot;movimenta&quot; os veículos. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="479" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="479" bodyend="500"/>
+        <references refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" compoundref="_mundo_8java" startline="408" endline="476">projetocc3642.Mundo.geraVeiculo</references>
+        <references refid="classprojetocc3642_1_1_mundo_1a744f794ef8ed86c2e7decbaa22972c76" compoundref="_mundo_8java" startline="263" endline="405">projetocc3642.Mundo.detectaColisao</references>
+        <references refid="classprojetocc3642_1_1_mundo_1a694c5bf2f661852f686f74d8f7cd68d9" compoundref="_mundo_8java" startline="133" endline="222">projetocc3642.Mundo.zeraMapa</references>
+        <references refid="classprojetocc3642_1_1_mundo_1aa9b445c0bffbc8f320925780bdf84fad" compoundref="_mundo_8java" startline="56" endline="130">projetocc3642.Mundo.desenhaMundo</references>
+        <referencedby refid="classprojetocc3642_1_1_projeto_c_c3642_1ae9791a0530e6a908cf4e930e109fba86" compoundref="_projeto_c_c3642_8java" startline="18" endline="32">projetocc3642.ProjetoCC3642.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Kayke Bonafé de Luca R.A.: 22.217.003-7 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>ArrayList&lt; projetocc3642.Caminhao &gt;</label>
+      </node>
+      <node id="24">
+        <label>ArrayList&lt; projetocc3642.Moto &gt;</label>
+      </node>
+      <node id="27">
+        <label>Random</label>
+      </node>
+      <node id="21">
+        <label>projetocc3642.Mundo</label>
+        <link refid="classprojetocc3642_1_1_mundo"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>ca</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>m</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>v</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ArrayList&lt; projetocc3642.Bicicleta &gt;</label>
+      </node>
+      <node id="26">
+        <label>projetocc3642.Veiculo</label>
+        <link refid="classprojetocc3642_1_1_veiculo"/>
+        <childnode refid="27" relation="usage">
+          <edgelabel>cam</edgelabel>
+          <edgelabel>motoca</edgelabel>
+          <edgelabel>r</edgelabel>
+          <edgelabel>bici</edgelabel>
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ArrayList&lt; projetocc3642.Carro &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" line="10" column="1" bodyfile="C:/Users/T-Gamer/Projeto_P1_CC3642/src/projetocc3642/Mundo.java" bodystart="10" bodyend="502"/>
+    <listofallmembers>
+      <member refid="classprojetocc3642_1_1_mundo_1aff6df0225783961a2e5ed24f7d6464bf" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>atualizaMundo</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1ae487a57360765f20fc56c3b3ef4f3f0b" prot="package" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>b</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1adcf992aefc45b1cc81bc99ba08094279" prot="package" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>c</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1a6153947889643d2d3e79b79ce88f99b2" prot="package" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>ca</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1aa9b445c0bffbc8f320925780bdf84fad" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>desenhaMundo</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1a744f794ef8ed86c2e7decbaa22972c76" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>detectaColisao</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1a300d001d4a7ad67ec0d957c6e74fc9c4" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>geraVeiculo</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1ae0db9c96e43aa4eefa9669b77bb33b57" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>geraVeiculos</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1a128cd965ad6e95ea0ae4506187702063" prot="package" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>m</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1af5690a7b80ba47603e9e87025454b303" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>mapa</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1aeb0662b27f7751253e25ef58afda6b98" prot="package" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>v</name></member>
+      <member refid="classprojetocc3642_1_1_mundo_1a694c5bf2f661852f686f74d8f7cd68d9" prot="public" virt="non-virtual"><scope>projetocc3642::Mundo</scope><name>zeraMapa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
